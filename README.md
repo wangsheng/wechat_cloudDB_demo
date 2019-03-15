@@ -10,6 +10,10 @@
   ![](http://img.iaquam.com/image/png/wechat_cloudDB_demo_player.PNG)
 
 借助于提供的云数据库，可以实现非API方式来动态加载内容。后续只需要直接云端数据库的数据，就能动态查看不同的课程以及课件。
+
+![](http://img.iaquam.com/image/png/wechat_cloudDB_demo_db-course.png)
+![](http://img.iaquam.com/image/png/wechat_cloudDB_demo_db-lesson.png)
+
 ~~~Javascript
 /**
    * 获取课程信息
@@ -57,12 +61,12 @@
 - 更换config.js里云环境的值为你自己的
   ~~~Javascript
   function getCloudEnv () {
-  if (getEnv() == "pro") {
-    return "pro-xxx";
-  } else {
-    return "pro-yyy";
+    if (getEnv() == "pro") {
+      return "pro-xxx";
+    } else {
+      return "pro-yyy";
+    }
   }
-}
   ~~~
 - 如果遇到以下报错信息，请将基础库调整为2.3.0及以上版本
 
