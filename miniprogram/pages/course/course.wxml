@@ -1,0 +1,6 @@
+<!--miniprogram/pages/course/course.wxml-->
+<view class="list">
+  <view class="item" wx:for="{{courses}}" wx:key="{{index}}" bindtap='goLessons' data-id="{{item._id}}" data-name="{{item.name}}">{{item.name}}</view>
+</view>
+<import src="/template/load_more_footer/load_more_footer.wxml" />
+<template is="load_more_footer" data="{{footer}}" />

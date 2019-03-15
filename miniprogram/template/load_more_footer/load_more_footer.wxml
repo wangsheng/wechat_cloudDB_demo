@@ -1,0 +1,7 @@
+<!-- 分页加载底部加载更多组件 -->
+<template name="load_more_footer">
+  <view wx:if="{{footer.need_footer}}">
+    <view class='footer' wx:if="{{footer.no_more}}">没有更多内容了</view>
+    <view class='footer' wx:else>正在加载中...</view>
+</view>
+</template>

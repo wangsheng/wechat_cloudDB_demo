@@ -1,0 +1,9 @@
+/* miniprogram/pages/video/video.wxss */
+page {
+  background-color: black;
+}
+
+#myVideo {
+  width: 100%;
+  margin-top: 260rpx;
+}

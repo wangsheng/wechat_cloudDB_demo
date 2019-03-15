@@ -1,0 +1,12 @@
+/* miniprogram/pages/course/course.wxss */
+@import '/template/load_more_footer/load_more_footer.wxss';
+
+.list {
+  width: 100%;
+  height: auto;
+}
+
+.item {
+  padding: 20rpx;
+  border-bottom: 1px solid ghostwhite;
+}
